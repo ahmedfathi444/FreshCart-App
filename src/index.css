@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.main-color{
+  color: green !important;
+}
+.bg-main-color{
+  background-color: green !important;
+}
+
+a , a:hover{
+  color: black !important;
+  text-decoration: none !important;
+}
+.special-link{
+  color: blue !important;
+}
+.forget-password:hover{
+  color: green !important;
+  
+}
+.categoryItem{
+  transition: all 0.5s;
+}
+.categoryItem:hover{
+  transform: scale(1.1);
+}
+.brand-item{
+  transition: all 0.5s;
+}
+.brand-item:hover{
+  box-shadow: 1px 1px 10px 1px rgba(0, 128, 0, 0.356);
+  color: rgb(0, 128, 0);
+}
+textarea{
+  resize: none;
+  
+}
+ 
